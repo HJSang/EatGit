@@ -63,3 +63,35 @@ Create a new connection to a remote repository. After adding a remote, you’ll 
 git remote rm <name>
 git remote rename <old_name> <new_name>
 ```
+* git fetch: The git fetch command downloads commits, files, and refs from a remote repository into your local repo. Fetching is what you do when you want to see what everybody else has been working on.
+```git
+git fetch <remote>
+```
+Fetch all of the branches from the repository. This also downloads all of the required commits and files from the other repository.
+```git
+git fetch <remote> <branch>
+```
+Same as the above command, but only fetch the specified branch.
+```git
+git fetch --all
+```
+A power move which fetches all registered remotes and their branches:
+```git
+git ftech --dry-run
+```
+The --dry-run option will perform a demo run of the command. I will output examples of actions it will take during the fetch but not apply them.
+
+Git fetch examples:
+```git
+git remote add coworkers_repo git@bitbucket.org:coworker/coworkers_repo.git
+git fetch coworkers feature_branch
+git checkout coworkers/feature_branch
+git checkout -b local_feature_branch 
+```
+
+Synchronize origin with git fetch:
+```git
+git fetch origin
+```
+
+
