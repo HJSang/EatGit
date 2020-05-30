@@ -14,4 +14,11 @@ This is summarized from this [blog](https://kbroman.org/github_tutorial/pages/in
 * git commit --m "Add README"
 * git remote add origin git@github.com:user_name/new_repo
 * git push -u origin master
-
+```git
+git init
+vi README.md
+git add --a
+git commit --m "Add README"
+git remote add origin git@github.com:HJSang/EatGit
+git push -u origin master
+```
