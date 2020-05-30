@@ -52,4 +52,14 @@ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY .
 ```
 clone the remote address to the locale dir. 
 
-
+## Sync
+This is summarized from this [blog](https://www.atlassian.com/git/tutorials/syncing).
+* git remote: The git remote command lets you create, view, and delete connections to other repositories.
+```git 
+git remote add <name> <url>
+```
+Create a new connection to a remote repository. After adding a remote, you’ll be able to use <name> as a convenient shortcut for <url> in other Git commands.
+```git
+git remote rm <name>
+git remote rename <old_name> <new_name>
+```
