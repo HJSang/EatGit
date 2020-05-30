@@ -22,3 +22,14 @@ git commit --m "Add README"
 git remote add origin git@github.com:HJSang/EatGit
 git push -u origin master
 ```
+## Add Git Ignore Files
+This is summarized from [ignore files](https://help.github.com/en/github/using-git/ignoring-files).
+* Create a .gitignore file for your repo
+```
+touch .gitignore
+```
+* Edit and configure your .gitignore file. For example, see [this file](https://gist.github.com/octocat/9257657)
+* If you want to ignore a file that is already checked in, you must untrack the file before you add a rule to ignore it. From your terminal, untrack the file.
+```git
+git rm --cached FILENAME
+```
