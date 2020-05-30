@@ -33,3 +33,14 @@ touch .gitignore
 ```git
 git rm --cached FILENAME
 ```
+## Add files to staging area
+```git
+git add -A
+git status
+```
+* -A is to add everything 
+* if you want to remove file from the stage area, you can use 
+```git
+git reset
+git status
+```
