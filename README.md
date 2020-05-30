@@ -44,3 +44,12 @@ git status
 git reset
 git status
 ```
+
+## Clone
+This is summarized from [Cloning a repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+```git
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY .
+```
+clone the remote address to the locale dir. 
+
+
