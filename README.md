@@ -8,3 +8,10 @@ This is summarized from this [blog](https://kbroman.org/github_tutorial/pages/in
 * Log in to your account 
 * Click the new repository button and make a nice name
 * Locally, make dir for your project 
+* git init
+* make README.md and edit it
+* git add --a
+* git commit --m "Add README"
+* git remote add origin git@github.com:user_name/new_repo
+* git push -u origin master
+
